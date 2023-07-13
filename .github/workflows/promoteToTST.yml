@@ -55,7 +55,7 @@ jobs:
         with:
           resourceGroupName: "rg_tst"
           dataFactoryName: "tstADF110"
-          armTemplateFile: ./ARMTemplateForFactory.json
+          armTemplateFile: ./armtemplates/ARMTemplateForFactory.json
           armTemplateParametersFile: ./tst_ARMTemplateParametersForFactory.json
 
 ################### End of workflow file ###################
