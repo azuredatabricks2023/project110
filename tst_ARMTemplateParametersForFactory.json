@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "tstADF110"
+        },
+        "ls_adls_CS_accountKey": {
+            "value": ""
+        },
+        "ls_AzureSQL_connectionString": {
+            "value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sqlserver1504.database.windows.net;Initial Catalog=sqldb1504;User ID=sqladmin"
+        },
+        "ls_adls_CS_properties_typeProperties_url": {
+            "value": "https://tststorage110.dfs.core.windows.net/"
+        },
+        "ls_AzureKeyVault_properties_typeProperties_baseUrl": {
+            "value": "https://tst-KV110.vault.azure.net/"
+        }
+    }
+}
