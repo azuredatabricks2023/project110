@@ -6,10 +6,10 @@
             "value": "tstADF110"
         },
         "ls_adls_CS_accountKey": {
-            "value": ""
+            "value": "lpaqOiDtgEOyBWCmV/KLgIJX10U9m1i/gDbhyXqYRm0GsRx7SFXs0Fa+0M4eurbJMCIFxTIUma80+AStNjXoNg=="
         },
         "ls_AzureSQL_connectionString": {
-            "value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sqlserver1504.database.windows.net;Initial Catalog=sqldb1504;User ID=sqladmin"
+            "value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tstsqlserver110.database.windows.net;Initial Catalog=tstsqldb110;User ID=adminsql"
         },
         "ls_adls_CS_properties_typeProperties_url": {
             "value": "https://tststorage110.dfs.core.windows.net/"
