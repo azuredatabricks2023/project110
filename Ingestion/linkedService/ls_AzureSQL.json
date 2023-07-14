@@ -1,6 +1,5 @@
 {
 	"name": "ls_AzureSQL",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureSqlDatabase",
@@ -12,8 +11,9 @@
 					"referenceName": "ls_AzureKeyVault",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "devsqlpwd"
+				"secretName": "sqlpwd"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
